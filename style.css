@@ -15,7 +15,7 @@ body{
     Navigation Header Design 
 --------------------------------*/
 header{
-    background-color: teal;
+    background-color: #02aec5;
     height: 80px;
     padding: 10px 0;
     margin-bottom: 25px;
@@ -88,6 +88,9 @@ header{
     grid-column-gap: 35px;
     grid-row-gap: 35px;
 }
+.boxes h3{
+    color: gray;
+}
 .workout{
     background-color: white;
     padding: 25px;
@@ -102,11 +105,31 @@ header{
     margin: 2px 0;
     padding: 8px;
 }
-.contestant:first-child{
+.total-time{
     background-color: teal;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
+.walking{
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.running{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.biking{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .contestant:hover{
     background-color: crimson;
     color: white;
