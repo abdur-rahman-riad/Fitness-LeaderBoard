@@ -86,6 +86,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 35px;
+    grid-row-gap: 35px;
 }
 .workout{
     background-color: white;
@@ -119,6 +120,11 @@ header{
 .time{
     font-size: 1.3em;
     font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: gray;
 }
 
 /* ------------------------------
